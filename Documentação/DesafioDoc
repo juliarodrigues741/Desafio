@@ -1,1 +1,25 @@
+Eu criei este código Java para resolver um problema bem interessante: encontrar a maior área de um retângulo que seja formado apenas por caracteres '1' dentro de uma tabela que tem '0's e '1's.
+Como Meu Código Está Organizado
+Eu organizei meu código em uma classe chamada Desafio. Dentro dela, tem três partes principais que trabalham juntas:
+1.	RetanguloMax(char[][] matriz): Este é o método principal. É ele que comanda todo o processo para achar a maior área.
+2.	encontrarMaiorRetangulo(int[] alturas): Este é um método auxiliar. Ele me ajuda a resolver uma parte específica do problema.
+3.	main(String[] args): Este método serve para você "ligar" o programa e testar como ele funciona com um exemplo.
+Os Detalhes do Meu Trabalho
+Veremos como cada parte do meu código funciona:
+1. RetanguloMax(char[][] matriz)
+Este método é o ponto de partida. Ele recebe a sua tabela (char[][] matriz) e encontra a maior área.
+•	O que ele recebe: A sua matriz, que é uma tabela cheia de '0's e '1's.
+•	O que ele devolve: Um número inteiro, que é a área do maior retângulo que encontrou.
+2. encontrarMaiorRetangulo(int[] alturas): 
+Este método é a chave para a minha solução. Ele recebe um array de alturas e encontra a maior área que um retângulo pode ter 
+•	O que ele recebe: Um array (alturas) com os valores das alturas das "barras" do histograma.
+•	O que ele devolve: Um número inteiro, que é a maior área encontrada dentro desse histograma.
+3. main(String[] args): 
+Este é o método que faz tudo acontecer.
+•	Como funciona: 
+1.	Ele cria uma nova instância da classe Desafio.
+2.	Ele define uma matriz de exemplo para testar.
+3.	Ele chama o método principal (solucionador.RetanguloMax(matriz)) com essa matriz de exemplo.
+4.	Por fim, Ele imprime o resultado na tela.
+
 
